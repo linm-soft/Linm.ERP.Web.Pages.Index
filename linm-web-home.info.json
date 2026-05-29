@@ -1,4 +1,16 @@
 {
-  "version": "1.0.6-dev.22",
-  "timebuild": "2026-05-29T14:13:24.467Z"
+  "version": "1.0.6-dev.23",
+  "timebuild": "2026-05-29T16:23:01.254Z",
+  "routes": [
+    "login",
+    "settings",
+    "notifications",
+    "messages",
+    "help",
+    "faq",
+    "contact",
+    "install-guide",
+    "notification-guide"
+  ],
+  "default": true
 }
