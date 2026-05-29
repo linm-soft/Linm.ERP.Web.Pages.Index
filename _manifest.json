@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T08:10:08.935Z",
+  "timestamp": "2026-05-29T08:10:15.157Z",
   "microfrontends": {
     "@linm/admin": {
       "url": "/linm-admin.790e6dd4.js",
@@ -32,10 +32,10 @@
       "timebuild": "2026-05-29T07:45:39.651Z"
     },
     "@linm/web-home": {
-      "url": "/linm-web-home.1b41f6e5.js",
-      "filename": "linm-web-home.1b41f6e5.js",
-      "version": "1.0.6-dev.8",
-      "timebuild": "2026-05-29T06:09:21.561Z"
+      "url": "/linm-web-home.193b8d66.js",
+      "filename": "linm-web-home.193b8d66.js",
+      "version": "1.0.6-dev.10",
+      "timebuild": "2026-05-29T08:10:15.129Z"
     }
   }
 }
