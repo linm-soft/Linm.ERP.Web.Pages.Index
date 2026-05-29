@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[2769],{2769(e,n,t){t.r(n),t.d(n,{default:()=>i}),t(4726);var a=t(6820),c=t(4848);const i=function(){return(0,c.jsx)(a.b,{title:"hóa đơn mua DV",invoiceType:"Service",listPath:"/kt/hdmh-dv"})}}}]);
+//# sourceMappingURL=2769.e5c843b1.linm-erp-finance.js.map

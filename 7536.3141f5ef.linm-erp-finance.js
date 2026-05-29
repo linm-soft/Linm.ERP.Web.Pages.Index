@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[7536],{7536(e,n,t){t.r(n),t.d(n,{default:()=>u}),t(4726);var c=t(6820),i=t(4848);const u=function(){return(0,i.jsx)(c.b,{title:"phiếu nhập mua XT",invoiceType:"DirectPurchase",listPath:"/kt/pnm-xt"})}}}]);
+//# sourceMappingURL=7536.3141f5ef.linm-erp-finance.js.map

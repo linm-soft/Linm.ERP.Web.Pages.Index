@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[2993],{2993(e,t,n){n.r(t),n.d(t,{default:()=>h}),n(4726);var c=n(7572),a=n(4848);const h=function(){return(0,a.jsx)(c.d,{title:"Hóa đơn mua dịch vụ",icon:"fa-receipt",invoiceType:"Service",listPath:"/kt/hdmh-dv",createPath:"/kt/hdmh-dv/them",detailPath:function(e){return"/kt/hdmh-dv/".concat(e)}})}}}]);
+//# sourceMappingURL=2993.942244d3.linm-erp-finance.js.map
