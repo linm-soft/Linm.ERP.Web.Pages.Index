@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T14:14:06.586Z",
+  "timestamp": "2026-05-29T14:14:13.331Z",
   "microfrontends": {
     "@linm/erp-sales": {
       "url": "/linm-erp-sales.a5d51d12.js",
@@ -13,6 +13,12 @@
       "version": "1.0.0-dev.2",
       "timebuild": "2026-05-29T14:13:53.964Z"
     },
+    "@linm/erp-master": {
+      "url": "/linm-erp-master.1025edc1.js",
+      "filename": "linm-erp-master.1025edc1.js",
+      "version": "1.0.0-dev.2",
+      "timebuild": "2026-05-29T14:14:13.304Z"
+    },
     "@linm/admin": {
       "url": "/linm-admin.83cd3774.js",
       "filename": "linm-admin.83cd3774.js",
@@ -24,6 +30,12 @@
       "filename": "linm-dashboard.fab0d2bf.js",
       "version": "1.0.0-dev.13",
       "timebuild": "2026-05-29T14:13:05.712Z"
+    },
+    "@linm/erp-master-parcel": {
+      "url": "/linm-erp-master-parcel.46223850.js",
+      "filename": "linm-erp-master-parcel.46223850.js",
+      "version": "unknown",
+      "timebuild": "2026-05-29T14:14:13.331Z"
     },
     "@linm/message": {
       "url": "/linm-message.js",
