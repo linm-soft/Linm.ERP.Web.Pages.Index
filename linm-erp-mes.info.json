@@ -1,4 +1,7 @@
 {
-  "version": "1.0.0-dev.3",
-  "timebuild": "2026-05-29T14:55:16.878Z"
+  "version": "1.0.0-dev.4",
+  "timebuild": "2026-05-29T16:23:34.603Z",
+  "routes": [
+    "sx"
+  ]
 }
