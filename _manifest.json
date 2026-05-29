@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T14:31:05.663Z",
+  "timestamp": "2026-05-29T14:55:16.899Z",
   "microfrontends": {
     "@linm/erp-finance": {
       "url": "/linm-erp-finance.bc667dcb.js",
@@ -14,10 +14,10 @@
       "timebuild": "2026-05-29T14:14:06.549Z"
     },
     "@linm/erp-mes": {
-      "url": "/linm-erp-mes.66e3b78b.js",
-      "filename": "linm-erp-mes.66e3b78b.js",
-      "version": "1.0.0-dev.2",
-      "timebuild": "2026-05-29T14:13:53.964Z"
+      "url": "/linm-erp-mes.8af40a2a.js",
+      "filename": "linm-erp-mes.8af40a2a.js",
+      "version": "1.0.0-dev.3",
+      "timebuild": "2026-05-29T14:55:16.878Z"
     },
     "@linm/erp-master": {
       "url": "/linm-erp-master.6d5b60e1.js",
@@ -41,7 +41,7 @@
       "url": "/linm-erp-master-parcel.d3f82b8d.js",
       "filename": "linm-erp-master-parcel.d3f82b8d.js",
       "version": "unknown",
-      "timebuild": "2026-05-29T14:31:05.663Z"
+      "timebuild": "2026-05-29T14:55:16.899Z"
     },
     "@linm/message": {
       "url": "/linm-message.js",
