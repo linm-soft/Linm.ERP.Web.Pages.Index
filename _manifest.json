@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T10:32:43.319Z",
+  "timestamp": "2026-05-29T10:32:52.082Z",
   "microfrontends": {
     "@linm/admin": {
       "url": "/linm-admin.eed43985.js",
@@ -28,8 +28,8 @@
     "@linm/root-config": {
       "url": "/linm-root-config.js",
       "filename": "linm-root-config.js",
-      "version": "1.0.30-dev.8",
-      "timebuild": "2026-05-29T07:45:39.651Z"
+      "version": "1.0.30-dev.9",
+      "timebuild": "2026-05-29T10:32:52.061Z"
     },
     "@linm/web-home": {
       "url": "/linm-web-home.ea374c80.js",
