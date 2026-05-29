@@ -1,11 +1,17 @@
 {
-  "timestamp": "2026-05-28T19:26:27.425Z",
+  "timestamp": "2026-05-29T05:51:04.416Z",
   "microfrontends": {
     "@linm/admin": {
       "url": "/linm-admin.790e6dd4.js",
       "filename": "linm-admin.790e6dd4.js",
       "version": "1.0.3-dev.5",
       "timebuild": "2026-05-28T19:25:19.940Z"
+    },
+    "@linm/dashboard": {
+      "url": "/linm-dashboard.5090277f.js",
+      "filename": "linm-dashboard.5090277f.js",
+      "version": "1.0.0-dev.1",
+      "timebuild": "2026-05-29T05:51:04.391Z"
     },
     "@linm/nav": {
       "url": "/linm-nav.b88b7bfb.js",
