@@ -1,41 +1,12 @@
 {
-  "timestamp": "2026-05-29T13:41:53.524Z",
+  "timestamp": "2026-05-29T13:41:56.013Z",
+  "publicUrl": "",
   "microfrontends": {
-    "@linm/admin": {
-      "url": "/linm-admin.83cd3774.js",
-      "filename": "linm-admin.83cd3774.js",
-      "version": "1.0.3-dev.16",
-      "timebuild": "2026-05-29T13:41:44.348Z"
-    },
-    "@linm/dashboard": {
-      "url": "/linm-dashboard.fab0d2bf.js",
-      "filename": "linm-dashboard.fab0d2bf.js",
-      "version": "1.0.0-dev.10",
-      "timebuild": "2026-05-29T13:41:37.321Z"
-    },
-    "@linm/message": {
-      "url": "/linm-message.js",
-      "filename": "linm-message.js",
-      "version": "1.0.0-dev.11",
-      "timebuild": "2026-05-29T13:41:52.039Z"
-    },
-    "@linm/nav": {
-      "url": "/linm-nav.c1e7aff9.js",
-      "filename": "linm-nav.c1e7aff9.js",
-      "version": "1.0.5-dev.18",
-      "timebuild": "2026-05-29T13:41:49.519Z"
-    },
     "@linm/root-config": {
       "url": "/linm-root-config.js",
       "filename": "linm-root-config.js",
-      "version": "1.0.30-dev.11",
-      "timebuild": "2026-05-29T12:01:09.745Z"
-    },
-    "@linm/web-home": {
-      "url": "/linm-web-home.f1fefbdd.js",
-      "filename": "linm-web-home.f1fefbdd.js",
-      "version": "1.0.6-dev.19",
-      "timebuild": "2026-05-29T13:41:53.524Z"
+      "version": "1.0.30-dev.13",
+      "timebuild": "2026-05-29T13:41:56.013Z"
     }
   }
 }
