@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-29T14:13:13.765Z",
+  "timestamp": "2026-05-29T14:13:20.028Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -24,13 +24,13 @@
       "url": "/linm-message.js",
       "filename": "linm-message.js",
       "version": "1.0.0-dev.14",
-      "timebuild": "2026-05-29T14:13:13.767Z"
+      "timebuild": "2026-05-29T14:13:13.765Z"
     },
     "@linm/nav": {
-      "url": "/linm-nav.84455ca0.js",
-      "filename": "linm-nav.84455ca0.js",
-      "version": "1.0.5-dev.20",
-      "timebuild": "2026-05-29T13:53:02.210Z"
+      "url": "/linm-nav.a9916f7c.js",
+      "filename": "linm-nav.a9916f7c.js",
+      "version": "1.0.5-dev.21",
+      "timebuild": "2026-05-29T14:13:20.030Z"
     },
     "@linm/web-home": {
       "url": "/linm-web-home.ceb58582.js",
