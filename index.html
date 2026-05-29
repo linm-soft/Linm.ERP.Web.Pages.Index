@@ -25,6 +25,7 @@
         
         const manifest = await response.json();
         console.log('[Manifest Loader] Loaded manifest:', manifest);
+        window.__LINM_MF_MANIFEST__ = manifest;
         
         // Wait for System to be available
         if (typeof System === 'undefined') {
