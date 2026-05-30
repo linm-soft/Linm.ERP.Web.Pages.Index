@@ -8,7 +8,10 @@
     "imports": {
       "@linm/root-config":        "/linm-root-config.js"
     }
-  }</script><script src="/system.min.js"></script><script src="/named-register.js"></script><script src="/import-map-overrides.js"></script><script>(async function() {
+  }</script><script src="/system.min.js"></script><script src="/named-register.js"></script><script src="/import-map-overrides.js"></script><script>// import-map-overrides-full chỉ hiện khi localStorage[key] === 'true' (không phải 'show')
+    if (localStorage.getItem('overrides-ui') === 'show') {
+      localStorage.setItem('overrides-ui', 'true');
+    }</script><script>(async function() {
       try {
         const manifestUrl = '/_manifest.json';
         console.log('[Manifest Loader] Fetching:', manifestUrl);
@@ -38,8 +41,20 @@
         if (manifest.microfrontends) {
           const imports = {};
           Object.entries(manifest.microfrontends).forEach(([name, info]) => {
-            console.log(`  ✓ ${name} → ${info.url}`);
             imports[name] = info.url;
+          });
+
+          // import-map-overrides localStorage — merge AFTER manifest (addImportMap ghi đè DOM overrides)
+          if (window.importMapOverrides) {
+            const overrideMap = window.importMapOverrides.getOverrideMap();
+            Object.entries(overrideMap.imports || {}).forEach(([name, url]) => {
+              console.log(`[Manifest Loader] Override ${name} → ${url}`);
+              imports[name] = url;
+            });
+          }
+
+          Object.entries(imports).forEach(([name, url]) => {
+            console.log(`  ✓ ${name} → ${url}`);
           });
           System.addImportMap({ imports });
           console.log('[Manifest Loader] Import map updated:', Object.keys(imports).length, 'entries');
