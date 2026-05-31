@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-31T17:16:16.255Z",
+  "timestamp": "2026-05-31T17:16:19.466Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.cc70da18.js",
@@ -53,7 +53,7 @@
       "url": "/linm-admin.e8e594e2.js",
       "filename": "linm-admin.e8e594e2.js",
       "version": "1.0.3-dev.25",
-      "timebuild": "2026-05-31T17:16:16.257Z",
+      "timebuild": "2026-05-31T17:16:16.255Z",
       "routes": [
         "admin"
       ]
@@ -80,10 +80,10 @@
       "timebuild": "2026-05-31T17:16:12.067Z"
     },
     "@linm/nav": {
-      "url": "/linm-nav.ea442d34.js",
-      "filename": "linm-nav.ea442d34.js",
-      "version": "1.0.5-dev.32",
-      "timebuild": "2026-05-31T11:08:41.853Z"
+      "url": "/linm-nav.69fe3c28.js",
+      "filename": "linm-nav.69fe3c28.js",
+      "version": "1.0.5-dev.33",
+      "timebuild": "2026-05-31T17:16:19.468Z"
     },
     "@linm/root-config": {
       "url": "/linm-root-config.js",
