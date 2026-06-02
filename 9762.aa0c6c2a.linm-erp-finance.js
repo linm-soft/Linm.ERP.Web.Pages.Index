@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[9762],{9762(e,n,c){c.r(n),c.d(n,{default:()=>t}),c(4726);var r=c(9635),s=c(4848);const t=function(){return(0,s.jsx)(r._,{kind:"receipt"})}}}]);
+//# sourceMappingURL=9762.aa0c6c2a.linm-erp-finance.js.map
