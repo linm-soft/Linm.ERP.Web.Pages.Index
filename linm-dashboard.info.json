@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-dev.20",
-  "timebuild": "2026-06-02T05:33:30.438Z",
+  "version": "1.0.0-dev.21",
+  "timebuild": "2026-06-02T07:05:41.400Z",
   "routes": [
     "dashboard"
   ]
