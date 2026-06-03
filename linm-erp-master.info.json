@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-dev.35",
-  "timebuild": "2026-06-03T17:38:30.088Z",
+  "version": "1.0.0-dev.37",
+  "timebuild": "2026-06-03T17:52:53.898Z",
   "routes": [
     "dm",
     "system"
