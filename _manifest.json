@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T02:46:04.494Z",
+  "timestamp": "2026-06-03T02:46:08.896Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.dba8c35d.js",
@@ -62,7 +62,7 @@
       "url": "/linm-dashboard.624d931e.js",
       "filename": "linm-dashboard.624d931e.js",
       "version": "1.0.0-dev.22",
-      "timebuild": "2026-06-03T02:46:04.499Z",
+      "timebuild": "2026-06-03T02:46:04.494Z",
       "routes": [
         "dashboard"
       ]
@@ -76,8 +76,8 @@
     "@linm/message": {
       "url": "/linm-message.js",
       "filename": "linm-message.js",
-      "version": "1.0.0-dev.22",
-      "timebuild": "2026-06-02T07:05:51.655Z"
+      "version": "1.0.0-dev.23",
+      "timebuild": "2026-06-03T02:46:08.900Z"
     },
     "@linm/nav": {
       "url": "/linm-nav.80154a27.js",
