@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T12:01:53.192Z",
+  "timestamp": "2026-06-04T12:55:34.541Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.4b8add30.js",
@@ -42,8 +42,8 @@
     "@linm/erp-master": {
       "url": "/linm-erp-master.a2fe6045.js",
       "filename": "linm-erp-master.a2fe6045.js",
-      "version": "1.0.0-dev.47",
-      "timebuild": "2026-06-04T12:01:53.197Z",
+      "version": "1.0.0-dev.48",
+      "timebuild": "2026-06-04T12:55:34.546Z",
       "routes": [
         "dm",
         "system"
