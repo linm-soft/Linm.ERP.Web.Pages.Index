@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T11:43:40.365Z",
+  "timestamp": "2026-06-04T11:45:33.241Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.4b8add30.js",
@@ -14,7 +14,7 @@
       "url": "/linm-erp-finance.4a289449.js",
       "filename": "linm-erp-finance.4a289449.js",
       "version": "1.0.0-dev.52",
-      "timebuild": "2026-06-04T11:43:40.371Z",
+      "timebuild": "2026-06-04T11:43:40.365Z",
       "routes": [
         "kt",
         "gt",
@@ -40,10 +40,10 @@
       ]
     },
     "@linm/erp-master": {
-      "url": "/linm-erp-master.7b012dce.js",
-      "filename": "linm-erp-master.7b012dce.js",
-      "version": "1.0.0-dev.45",
-      "timebuild": "2026-06-04T10:42:35.601Z",
+      "url": "/linm-erp-master.a2fe6045.js",
+      "filename": "linm-erp-master.a2fe6045.js",
+      "version": "1.0.0-dev.46",
+      "timebuild": "2026-06-04T11:45:33.246Z",
       "routes": [
         "dm",
         "system"
