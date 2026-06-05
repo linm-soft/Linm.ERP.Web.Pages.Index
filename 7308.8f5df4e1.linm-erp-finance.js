@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[7308],{7308(t,e,n){n.r(e),n.d(e,{default:()=>u}),n(4726);var a=n(7572),c=n(2999),r=n(4848);const u=function(){return(0,r.jsx)(a.d,{title:"Phiếu nhập mua XT",icon:"fa-truck-loading",voucherCode:c.l.phieuNhapMuaXt,listPath:"/kt/pnm-xt",createPath:"/kt/pnm-xt/them",detailPath:function(t){return"/kt/pnm-xt/".concat(t)},createInitFormName:"create-purchase-invoice"})}}}]);
+//# sourceMappingURL=7308.8f5df4e1.linm-erp-finance.js.map
