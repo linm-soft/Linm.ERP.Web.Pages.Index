@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T19:24:18.128Z",
+  "timestamp": "2026-06-09T19:24:22.620Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.b37bd9a2.js",
@@ -25,16 +25,16 @@
       "url": "/linm-erp-sales.30f581fb.js",
       "filename": "linm-erp-sales.30f581fb.js",
       "version": "1.0.0-dev.31",
-      "timebuild": "2026-06-09T19:24:18.136Z",
+      "timebuild": "2026-06-09T19:24:18.128Z",
       "routes": [
         "bh"
       ]
     },
     "@linm/erp-mes": {
-      "url": "/linm-erp-mes.73ba77c9.js",
-      "filename": "linm-erp-mes.73ba77c9.js",
-      "version": "1.0.0-dev.31",
-      "timebuild": "2026-06-07T18:29:15.062Z",
+      "url": "/linm-erp-mes.95de165c.js",
+      "filename": "linm-erp-mes.95de165c.js",
+      "version": "1.0.0-dev.32",
+      "timebuild": "2026-06-09T19:24:22.630Z",
       "routes": [
         "sx"
       ]
