@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-12T18:16:02.676Z",
+  "timestamp": "2026-06-12T18:16:06.574Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.28fa77bf.js",
       "filename": "linm-erp-analytics.28fa77bf.js",
       "version": "1.0.0-dev.38",
-      "timebuild": "2026-06-12T18:16:02.686Z",
+      "timebuild": "2026-06-12T18:16:02.676Z",
       "routes": [
         "baocao"
       ]
@@ -110,10 +110,10 @@
       "default": true
     },
     "@linm/erp-hr": {
-      "url": "/linm-erp-hr.7cff7f5c.js",
-      "filename": "linm-erp-hr.7cff7f5c.js",
-      "version": "1.0.0-dev.37",
-      "timebuild": "2026-06-12T17:58:56.667Z",
+      "url": "/linm-erp-hr.975c9654.js",
+      "filename": "linm-erp-hr.975c9654.js",
+      "version": "1.0.0-dev.38",
+      "timebuild": "2026-06-12T18:16:06.585Z",
       "routes": [
         "ns"
       ]
