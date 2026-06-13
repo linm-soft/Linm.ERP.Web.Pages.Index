@@ -1,6 +1,6 @@
 {
-  "version": "1.0.64-dev.110",
-  "timebuild": "2026-06-13T02:39:49.674Z",
+  "version": "1.0.57-dev.112",
+  "timebuild": "2026-06-13T03:01:00.161Z",
   "routes": [
     "admin"
   ]
