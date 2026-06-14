@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-14T06:55:21.294Z",
+  "timestamp": "2026-06-14T07:43:32.986Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.28fa77bf.js",
@@ -50,10 +50,10 @@
       ]
     },
     "@linm/admin": {
-      "url": "/linm-admin.59311e81.js",
-      "filename": "linm-admin.59311e81.js",
-      "version": "1.0.57-dev.136",
-      "timebuild": "2026-06-14T06:55:21.306Z",
+      "url": "/linm-admin.1e190d93.js",
+      "filename": "linm-admin.1e190d93.js",
+      "version": "1.0.57-dev.137",
+      "timebuild": "2026-06-14T07:43:33.152Z",
       "routes": [
         "admin"
       ]
