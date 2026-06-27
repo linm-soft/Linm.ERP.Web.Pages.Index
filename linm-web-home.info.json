@@ -1,6 +1,6 @@
 {
-  "version": "1.0.54-dev.73",
-  "timebuild": "2026-06-17T14:17:19.269Z",
+  "version": "1.0.54-dev.74",
+  "timebuild": "2026-06-27T02:24:15.055Z",
   "routes": [
     "login",
     "settings",
@@ -11,7 +11,9 @@
     "faq",
     "contact",
     "install-guide",
-    "notification-guide"
+    "notification-guide",
+    "unauthorized",
+    "session-expired"
   ],
   "default": true
 }

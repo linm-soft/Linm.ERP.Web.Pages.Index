@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-27T02:19:55.119Z",
+  "timestamp": "2026-06-27T02:24:15.055Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.f7096bdc.js",
@@ -53,7 +53,7 @@
       "url": "/linm-admin.85c251b5.js",
       "filename": "linm-admin.85c251b5.js",
       "version": "1.0.57-dev.153",
-      "timebuild": "2026-06-27T02:19:55.711Z",
+      "timebuild": "2026-06-27T02:19:55.119Z",
       "routes": [
         "admin"
       ]
@@ -92,10 +92,10 @@
       "timebuild": "2026-06-17T14:45:37.503Z"
     },
     "@linm/web-home": {
-      "url": "/linm-web-home.ff7ddd3e.js",
-      "filename": "linm-web-home.ff7ddd3e.js",
-      "version": "1.0.54-dev.73",
-      "timebuild": "2026-06-17T14:17:19.269Z",
+      "url": "/linm-web-home.648a0f7c.js",
+      "filename": "linm-web-home.648a0f7c.js",
+      "version": "1.0.54-dev.74",
+      "timebuild": "2026-06-27T02:24:15.775Z",
       "routes": [
         "login",
         "settings",
@@ -106,7 +106,9 @@
         "faq",
         "contact",
         "install-guide",
-        "notification-guide"
+        "notification-guide",
+        "unauthorized",
+        "session-expired"
       ],
       "default": true
     },
