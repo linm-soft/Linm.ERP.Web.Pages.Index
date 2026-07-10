@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1-dev.3",
-  "timebuild": "2026-07-09T18:59:53.489Z",
+  "version": "1.0.1-dev.4",
+  "timebuild": "2026-07-10T01:24:03.630Z",
   "routes": [
     "shell-url",
     "reva"
