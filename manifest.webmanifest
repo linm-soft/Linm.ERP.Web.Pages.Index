@@ -1,7 +1,7 @@
 {
   "name": "REVA",
   "short_name": "REVA",
-  "description": "Hệ thống kế toán - quản lý cửa hàng - báo cáo quản trị",
+  "description": "Hệ thống quản trị bán lẻ",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
