@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-15T18:11:40.876Z",
+  "timestamp": "2026-07-15T18:16:59.538Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.60f2f123.js",
       "filename": "linm-erp-analytics.60f2f123.js",
-      "version": "1.0.0-dev.55",
-      "timebuild": "2026-07-15T18:11:40.914Z",
+      "version": "1.0.0-dev.56",
+      "timebuild": "2026-07-15T18:16:59.562Z",
       "routes": [
         "baocao"
       ]
