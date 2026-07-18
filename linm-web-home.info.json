@@ -1,6 +1,6 @@
 {
-  "version": "1.0.54-dev.96",
-  "timebuild": "2026-07-18T09:00:35.792Z",
+  "version": "1.0.54-dev.98",
+  "timebuild": "2026-07-18T09:40:47.442Z",
   "routes": [
     "login",
     "logout",
