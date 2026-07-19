@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T08:24:01.071Z",
+  "timestamp": "2026-07-19T13:52:11.105Z",
   "microfrontends": {
     "@linm/erp-analytics": {
       "url": "/linm-erp-analytics.b458bf09.js",
@@ -25,7 +25,7 @@
       "url": "/linm-erp-sales.b13688a8.js",
       "filename": "linm-erp-sales.b13688a8.js",
       "version": "1.0.0-dev.78",
-      "timebuild": "2026-07-19T08:24:01.112Z",
+      "timebuild": "2026-07-19T08:24:01.071Z",
       "routes": [
         "bh"
       ]
@@ -92,10 +92,10 @@
       "timebuild": "2026-07-19T08:05:55.182Z"
     },
     "@linm/web-home": {
-      "url": "/linm-web-home.96624d57.js",
-      "filename": "linm-web-home.96624d57.js",
-      "version": "1.2.0-dev.105",
-      "timebuild": "2026-07-18T17:40:23.345Z",
+      "url": "/linm-web-home.9b66c161.js",
+      "filename": "linm-web-home.9b66c161.js",
+      "version": "1.2.0-dev.106",
+      "timebuild": "2026-07-19T13:52:11.186Z",
       "routes": [
         "login",
         "logout",
@@ -109,7 +109,8 @@
         "install-guide",
         "notification-guide",
         "unauthorized",
-        "session-expired"
+        "session-expired",
+        "not-found"
       ],
       "default": true
     },

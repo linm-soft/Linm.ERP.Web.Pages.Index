@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0-dev.105",
-  "timebuild": "2026-07-18T17:40:23.345Z",
+  "version": "1.2.0-dev.106",
+  "timebuild": "2026-07-19T13:52:11.105Z",
   "routes": [
     "login",
     "logout",
@@ -14,7 +14,8 @@
     "install-guide",
     "notification-guide",
     "unauthorized",
-    "session-expired"
+    "session-expired",
+    "not-found"
   ],
   "default": true
 }
