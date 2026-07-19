@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5-dev.16",
-  "timebuild": "2026-07-18T17:45:11.601Z",
+  "version": "1.0.5-dev.17",
+  "timebuild": "2026-07-19T07:30:58.934Z",
   "routes": [
     "shell-url",
     "shell"
