@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_kpi=self.webpackChunkerp_kpi||[]).push([[678],{9678(e,u,p){p.r(u);var r=p(9912),s=p(4848);p.d(u,["default",0,function(){return(0,s.jsx)(r.default,{isDemo:!0})}])}}]);
+//# sourceMappingURL=678.b728e776.linm-erp-kpi.js.map
