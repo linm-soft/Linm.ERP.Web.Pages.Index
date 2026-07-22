@@ -1,8 +1,9 @@
 {
-  "version": "1.1.0",
-  "timebuild": "2026-07-22T05:05:00.271Z",
+  "version": "1.1.0-dev.2",
+  "timebuild": "2026-07-22T07:22:13.104Z",
   "routes": [
     "tc/kh",
-    "tc/bc"
+    "tc/bc",
+    "tc/fpc"
   ]
 }
