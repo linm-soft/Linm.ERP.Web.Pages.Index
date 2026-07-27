@@ -133,20 +133,57 @@
 
       function scheduleDeployReload(reason, delayMs) {
         delayMs = delayMs || 1500;
+        if (window.__LINM_DEPLOY_RELOAD_PENDING__) return true;
         var now = Date.now();
         try {
           var raw = sessionStorage.getItem(RELOAD_KEY);
           var timestamps = raw ? JSON.parse(raw) : [];
           var recent = timestamps.filter(function(t) { return now - t < RELOAD_WINDOW_MS; });
           if (recent.length >= MAX_RELOADS) return false;
+          window.__LINM_DEPLOY_RELOAD_PENDING__ = true;
           recent.push(now);
           sessionStorage.setItem(RELOAD_KEY, JSON.stringify(recent));
         } catch(e) {
           if (Number(sessionStorage.getItem('_mf_deploy_reload') || 0) >= 2) return false;
+          window.__LINM_DEPLOY_RELOAD_PENDING__ = true;
         }
         console.warn('[DeployRecovery] ' + reason + ' — reloading in ' + delayMs + 'ms');
         setTimeout(function() { window.location.reload(); }, delayMs);
         return true;
+      }
+
+      function isDeployRelatedLoadError(error) {
+        var errStr = String(error && error.message ? (error.name + ' ' + error.message) : error);
+        return (
+          /ChunkLoadError/i.test(errStr) ||
+          /Loading chunk [\w.-]+ failed/i.test(errStr) ||
+          /MIME type ['"]?text\/html/i.test(errStr) ||
+          (/Refused to execute script/i.test(errStr) && /\.js/i.test(errStr)) ||
+          /Unexpected token\s*['"]?</i.test(errStr) ||
+          errStr.indexOf('Failed to fetch') !== -1 ||
+          errStr.indexOf('NetworkError') !== -1 ||
+          (/404/.test(errStr) && /\.js/i.test(errStr))
+        );
+      }
+
+      // Early boot: catch webpack ChunkLoadError before/without root-config handlers.
+      if (!window.__LINM_DEPLOY_CHUNK_RECOVERY_EJS__) {
+        window.__LINM_DEPLOY_CHUNK_RECOVERY_EJS__ = true;
+        window.addEventListener('unhandledrejection', function(event) {
+          if (isDeployRelatedLoadError(event.reason)) {
+            scheduleDeployReload('ejs unhandledrejection chunk/deploy');
+          }
+        });
+        window.addEventListener('error', function(event) {
+          var t = event.target;
+          if (t && t.tagName === 'SCRIPT' && t.src && /\.js(\?|$)/i.test(t.src)) {
+            scheduleDeployReload('ejs script error: ' + t.src);
+            return;
+          }
+          if (isDeployRelatedLoadError(event.error || event.message)) {
+            scheduleDeployReload('ejs window error chunk/deploy');
+          }
+        }, true);
       }
 
       var swUrl = '/sw.js';
