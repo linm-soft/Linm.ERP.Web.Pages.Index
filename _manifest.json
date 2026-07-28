@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T14:02:03.591Z",
+  "timestamp": "2026-07-28T16:05:15.140Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -105,9 +105,18 @@
       "url": "/dashboard/1.1.0/linm-dashboard.1d07fe3c.js",
       "filename": "linm-dashboard.1d07fe3c.js",
       "version": "1.1.0",
-      "timebuild": "2026-07-28T14:02:03.668Z",
+      "timebuild": "2026-07-28T14:02:03.591Z",
       "routes": [
         "dashboard"
+      ]
+    },
+    "@linm/erp-hr": {
+      "url": "/erp-hr/1.0.0-dev.56/linm-erp-hr.0feefab6.js",
+      "filename": "linm-erp-hr.0feefab6.js",
+      "version": "1.0.0-dev.56",
+      "timebuild": "2026-07-28T16:05:15.305Z",
+      "routes": [
+        "ns"
       ]
     }
   }
