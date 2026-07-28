@@ -1,0 +1,8 @@
+{
+  "version": "1.5.0-dev.24",
+  "timebuild": "2026-07-28T12:02:41.756Z",
+  "routes": [
+    "shell-url",
+    "shell"
+  ]
+}
