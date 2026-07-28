@@ -1,0 +1,21 @@
+{
+  "version": "1.6.0-dev.112",
+  "timebuild": "2026-07-28T10:26:09.924Z",
+  "routes": [
+    "login",
+    "logout",
+    "settings",
+    "notifications",
+    "messages",
+    "tra-cuu-tk",
+    "help",
+    "faq",
+    "contact",
+    "install-guide",
+    "notification-guide",
+    "forbidden",
+    "session-expired",
+    "not-found"
+  ],
+  "default": true
+}
