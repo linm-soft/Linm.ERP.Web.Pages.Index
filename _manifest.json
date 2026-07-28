@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T09:49:17.145Z",
+  "timestamp": "2026-07-28T09:52:44.858Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -12,7 +12,7 @@
       "url": "/linm-web-home.d60c1f54.js",
       "filename": "linm-web-home.d60c1f54.js",
       "version": "1.6.0",
-      "timebuild": "2026-07-28T09:49:17.160Z",
+      "timebuild": "2026-07-28T09:49:17.145Z",
       "routes": [
         "login",
         "logout",
@@ -30,6 +30,12 @@
         "not-found"
       ],
       "default": true
+    },
+    "@linm/nav": {
+      "url": "/linm-nav.ffe77bd6.js",
+      "filename": "linm-nav.ffe77bd6.js",
+      "version": "1.7.0",
+      "timebuild": "2026-07-28T09:52:44.874Z"
     }
   }
 }
