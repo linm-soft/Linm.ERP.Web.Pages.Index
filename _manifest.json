@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T11:43:31.014Z",
+  "timestamp": "2026-07-28T11:45:37.154Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -38,10 +38,10 @@
       "timebuild": "2026-07-28T10:56:31.693Z"
     },
     "@linm/erp-finance": {
-      "url": "/erp-finance/1.6.0-dev.202/linm-erp-finance.bc71f327.js",
+      "url": "/erp-finance/1.7.0/linm-erp-finance.bc71f327.js",
       "filename": "linm-erp-finance.bc71f327.js",
       "version": "1.7.0",
-      "timebuild": "2026-07-28T11:43:31.049Z",
+      "timebuild": "2026-07-28T11:43:31.014Z",
       "routes": [
         "kt",
         "gt",
@@ -49,20 +49,20 @@
       ]
     },
     "@linm/erp-master": {
-      "url": "/erp-master/linm-erp-master.d63b8bfc.js",
-      "filename": "linm-erp-master.d63b8bfc.js",
-      "version": "1.2.0-dev.123",
-      "timebuild": "2026-07-28T11:06:34.423Z",
+      "url": "/erp-master/1.3.0/linm-erp-master.cdd21a0a.js",
+      "filename": "linm-erp-master.cdd21a0a.js",
+      "version": "1.3.0",
+      "timebuild": "2026-07-28T11:45:37.179Z",
       "routes": [
         "dm",
         "system"
       ]
     },
     "@linm/erp-master-parcel": {
-      "url": "/erp-master/linm-erp-master-parcel.9ec88b70.js",
-      "filename": "linm-erp-master-parcel.9ec88b70.js",
-      "version": "1.2.0-dev.123",
-      "timebuild": "2026-07-28T11:06:34.423Z"
+      "url": "/erp-master/1.3.0/linm-erp-master-parcel.f820dac1.js",
+      "filename": "linm-erp-master-parcel.f820dac1.js",
+      "version": "1.3.0",
+      "timebuild": "2026-07-28T11:45:37.154Z"
     },
     "@linm/shell-url": {
       "url": "/shell-url/linm-shell-url.1c3da037.js",

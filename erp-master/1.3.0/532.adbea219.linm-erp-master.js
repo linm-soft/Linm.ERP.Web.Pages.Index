@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_master=self.webpackChunkerp_master||[]).push([[532],{63532(e,t,r){r.r(t),r.d(t,{default:()=>u}),r(54726);var s=r(47767),a=r(74848);const u=function(){return(0,a.jsx)(s.C5,{to:"/system/voucher-setup?tab=format",replace:!0})}}}]);
+//# sourceMappingURL=532.adbea219.linm-erp-master.js.map
