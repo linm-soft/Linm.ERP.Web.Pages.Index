@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[5641],{5380(e,a,n){n.r(a),n.d(a,{default:()=>s}),n(54726);var c=n(47767),r=n(46554),t=n(74848);const s=function(){var e,a=(0,c.zy)(),n=null===(e=new URLSearchParams(a.search).get("paymentMedium"))||void 0===e?void 0:e.toLowerCase();return"bank"===n?(0,t.jsx)(c.C5,{to:"/kt/unc",replace:!0}):"cash"===n?(0,t.jsx)(c.C5,{to:"/kt/pc",replace:!0}):(0,t.jsx)(r._,{kind:"payment"})}}}]);
+//# sourceMappingURL=pc-list.7ccb0276.linm-erp-finance.js.map
