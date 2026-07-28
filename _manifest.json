@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-28T06:55:45.031Z",
+  "timestamp": "2026-07-28T08:26:05.411Z",
   "microfrontends": {
     "@linm/erp-analytics": {
-      "url": "/linm-erp-analytics.ac31e0e6.js",
-      "filename": "linm-erp-analytics.ac31e0e6.js",
+      "url": "/linm-erp-analytics.fd623931.js",
+      "filename": "linm-erp-analytics.fd623931.js",
       "version": "1.0.0-dev.65",
       "timebuild": "2026-07-26T15:09:30.319Z",
       "routes": [
@@ -11,8 +11,8 @@
       ]
     },
     "@linm/erp-finance": {
-      "url": "/linm-erp-finance.e563ef0a.js",
-      "filename": "linm-erp-finance.e563ef0a.js",
+      "url": "/linm-erp-finance.fff09a03.js",
+      "filename": "linm-erp-finance.fff09a03.js",
       "version": "1.1.0-dev.192",
       "timebuild": "2026-07-27T16:29:30.203Z",
       "routes": [
@@ -22,8 +22,8 @@
       ]
     },
     "@linm/erp-sales": {
-      "url": "/linm-erp-sales.ce656351.js",
-      "filename": "linm-erp-sales.ce656351.js",
+      "url": "/linm-erp-sales.fe8dbd5e.js",
+      "filename": "linm-erp-sales.fe8dbd5e.js",
       "version": "1.0.0-dev.83",
       "timebuild": "2026-07-26T15:12:33.071Z",
       "routes": [
@@ -31,8 +31,8 @@
       ]
     },
     "@linm/erp-mes": {
-      "url": "/linm-erp-mes.92c006f8.js",
-      "filename": "linm-erp-mes.92c006f8.js",
+      "url": "/linm-erp-mes.ff6f5091.js",
+      "filename": "linm-erp-mes.ff6f5091.js",
       "version": "1.0.0-dev.57",
       "timebuild": "2026-07-25T05:56:33.393Z",
       "routes": [
@@ -40,18 +40,18 @@
       ]
     },
     "@linm/erp-master": {
-      "url": "/linm-erp-master.86282b23.js",
-      "filename": "linm-erp-master.86282b23.js",
-      "version": "1.0.0-dev.119",
-      "timebuild": "2026-07-28T06:55:45.088Z",
+      "url": "/linm-erp-master.ffba6d8f.js",
+      "filename": "linm-erp-master.ffba6d8f.js",
+      "version": "1.0.0-dev.120",
+      "timebuild": "2026-07-28T08:26:05.939Z",
       "routes": [
         "dm",
         "system"
       ]
     },
     "@linm/admin": {
-      "url": "/linm-admin.d1a5dc1e.js",
-      "filename": "linm-admin.d1a5dc1e.js",
+      "url": "/linm-admin.ffc302fd.js",
+      "filename": "linm-admin.ffc302fd.js",
       "version": "1.6.0-dev.229",
       "timebuild": "2026-07-27T16:00:52.112Z",
       "routes": [
@@ -59,8 +59,8 @@
       ]
     },
     "@linm/dashboard": {
-      "url": "/linm-dashboard.0fabbae2.js",
-      "filename": "linm-dashboard.0fabbae2.js",
+      "url": "/linm-dashboard.fea6224d.js",
+      "filename": "linm-dashboard.fea6224d.js",
       "version": "1.0.0-dev.37",
       "timebuild": "2026-06-09T19:23:24.976Z",
       "routes": [
@@ -68,8 +68,8 @@
       ]
     },
     "@linm/erp-master-parcel": {
-      "url": "/linm-erp-master-parcel.d3f82b8d.js",
-      "filename": "linm-erp-master-parcel.d3f82b8d.js",
+      "url": "/linm-erp-master-parcel.fefabc91.js",
+      "filename": "linm-erp-master-parcel.fefabc91.js",
       "version": "unknown",
       "timebuild": "2026-05-29T15:24:43.294Z"
     },
@@ -92,8 +92,8 @@
       "timebuild": "2026-07-27T06:16:44.112Z"
     },
     "@linm/web-home": {
-      "url": "/linm-web-home.f6b7d574.js",
-      "filename": "linm-web-home.f6b7d574.js",
+      "url": "/linm-web-home.ff7ddd3e.js",
+      "filename": "linm-web-home.ff7ddd3e.js",
       "version": "1.4.0-dev.110",
       "timebuild": "2026-07-26T14:56:43.696Z",
       "routes": [
@@ -115,8 +115,8 @@
       "default": true
     },
     "@linm/erp-hr": {
-      "url": "/linm-erp-hr.330df18b.js",
-      "filename": "linm-erp-hr.330df18b.js",
+      "url": "/linm-erp-hr.fd6dc308.js",
+      "filename": "linm-erp-hr.fd6dc308.js",
       "version": "1.0.0-dev.55",
       "timebuild": "2026-07-25T05:42:55.715Z",
       "routes": [
@@ -124,8 +124,8 @@
       ]
     },
     "@linm/erp-supply": {
-      "url": "/linm-erp-supply.ea169337.js",
-      "filename": "linm-erp-supply.ea169337.js",
+      "url": "/linm-erp-supply.fbce21e7.js",
+      "filename": "linm-erp-supply.fbce21e7.js",
       "version": "1.0.0-dev.44",
       "timebuild": "2026-07-19T08:16:13.754Z",
       "routes": [
@@ -140,8 +140,8 @@
       "timebuild": "2026-06-09T19:23:56.801Z"
     },
     "@linm/shell-url": {
-      "url": "/linm-shell-url.034351c2.js",
-      "filename": "linm-shell-url.034351c2.js",
+      "url": "/linm-shell-url.f3a20398.js",
+      "filename": "linm-shell-url.f3a20398.js",
       "version": "1.4.0-dev.22",
       "timebuild": "2026-07-25T05:46:37.646Z",
       "routes": [
@@ -150,8 +150,8 @@
       ]
     },
     "@linm/erp-kpi": {
-      "url": "/linm-erp-kpi.b5d36633.js",
-      "filename": "linm-erp-kpi.b5d36633.js",
+      "url": "/linm-erp-kpi.fcf10497.js",
+      "filename": "linm-erp-kpi.fcf10497.js",
       "version": "1.1.0-dev.9",
       "timebuild": "2026-07-24T19:21:10.102Z",
       "routes": [
