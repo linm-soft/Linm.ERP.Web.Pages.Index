@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T10:26:09.924Z",
+  "timestamp": "2026-07-28T10:30:12.795Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -11,8 +11,8 @@
     "@linm/web-home": {
       "url": "/linm-web-home.ab897322.js",
       "filename": "linm-web-home.ab897322.js",
-      "version": "1.6.0-dev.112",
-      "timebuild": "2026-07-28T10:26:09.938Z",
+      "version": "1.6.0-dev.113",
+      "timebuild": "2026-07-28T10:30:12.811Z",
       "routes": [
         "login",
         "logout",
