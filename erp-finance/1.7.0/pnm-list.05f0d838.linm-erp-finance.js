@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkerp_finance=self.webpackChunkerp_finance||[]).push([[1091],{33376(e,t,n){n.r(t),n.d(t,{default:()=>u}),n(54726);var a=n(27572),i=n(2999),h=n(74848);const u=function(){return(0,h.jsx)(a.d,{title:"Phiếu nhập mua",listTitle:"Danh sách phiếu nhập mua",icon:"fa-file-invoice",voucherCode:i.l.phieuNhapMua,listPath:"/kt/pnm",createPath:"/kt/pnm/them",detailPath:function(e){return"/kt/pnm/".concat(e)}})}}}]);
+//# sourceMappingURL=pnm-list.05f0d838.linm-erp-finance.js.map
