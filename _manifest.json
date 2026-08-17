@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T14:55:03.926Z",
+  "timestamp": "2026-08-17T16:34:28.990Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -120,10 +120,10 @@
       ]
     },
     "@linm/admin": {
-      "url": "/admin/1.9.0-dev.259/linm-admin.c0ca9580.js",
-      "filename": "linm-admin.c0ca9580.js",
-      "version": "1.9.0-dev.259",
-      "timebuild": "2026-08-17T14:55:03.960Z",
+      "url": "/admin/1.9.0-dev.262/linm-admin.197d92bc.js",
+      "filename": "linm-admin.197d92bc.js",
+      "version": "1.9.0-dev.262",
+      "timebuild": "2026-08-17T16:34:29.008Z",
       "routes": [
         "admin"
       ]
