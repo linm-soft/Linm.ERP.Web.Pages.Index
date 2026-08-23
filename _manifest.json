@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T09:43:51.905Z",
+  "timestamp": "2026-08-23T10:32:09.713Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -65,10 +65,10 @@
       "timebuild": "2026-07-28T11:45:37.154Z"
     },
     "@linm/shell-url": {
-      "url": "/shell-url/1.5.0-dev.24/linm-shell-url.e1f16165.js",
-      "filename": "linm-shell-url.e1f16165.js",
-      "version": "1.5.0-dev.24",
-      "timebuild": "2026-07-28T12:02:41.756Z",
+      "url": "/shell-url/1.5.0-dev.25/linm-shell-url.2aaa0b94.js",
+      "filename": "linm-shell-url.2aaa0b94.js",
+      "version": "1.5.0-dev.25",
+      "timebuild": "2026-08-23T10:32:10.062Z",
       "routes": [
         "shell-url",
         "shell"
@@ -123,7 +123,7 @@
       "url": "/admin/1.9.0-dev.266/linm-admin.0037531d.js",
       "filename": "linm-admin.0037531d.js",
       "version": "1.9.0-dev.266",
-      "timebuild": "2026-08-23T09:43:52.103Z",
+      "timebuild": "2026-08-23T09:43:51.905Z",
       "routes": [
         "admin"
       ]
