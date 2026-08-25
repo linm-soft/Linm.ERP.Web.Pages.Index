@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-23T10:32:09.713Z",
+  "timestamp": "2026-08-25T03:49:42.186Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
-      "url": "/root-config/1.12.0/linm-root-config.js",
+      "url": "/root-config/1.0.30-dev.130/linm-root-config.js",
       "filename": "linm-root-config.js",
-      "version": "1.12.0",
-      "timebuild": "2026-07-29T18:28:50.198Z"
+      "version": "1.0.30-dev.130",
+      "timebuild": "2026-08-25T03:49:43.020Z"
     },
     "@linm/web-home": {
       "url": "/web-home/linm-web-home.8315813d.js",
@@ -68,7 +68,7 @@
       "url": "/shell-url/1.5.0-dev.25/linm-shell-url.2aaa0b94.js",
       "filename": "linm-shell-url.2aaa0b94.js",
       "version": "1.5.0-dev.25",
-      "timebuild": "2026-08-23T10:32:10.062Z",
+      "timebuild": "2026-08-23T10:32:09.713Z",
       "routes": [
         "shell-url",
         "shell"
@@ -127,6 +127,12 @@
       "routes": [
         "admin"
       ]
+    },
+    "@linm/mf-verify": {
+      "url": "/root-config/1.0.30-dev.130/linm-mf-verify.js",
+      "filename": "linm-mf-verify.js",
+      "version": "1.0.30-dev.130",
+      "timebuild": "2026-08-25T03:49:42.186Z"
     }
   }
 }

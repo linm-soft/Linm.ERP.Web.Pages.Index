@@ -1,12 +1,50 @@
-<!doctype html><html lang="vi"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><meta name="robots" content="noindex,nofollow"/><title>CTY CỔ PHẦN SIÊU THỊ THỰC PHẨM VIỆT NAM</title><meta name="description" content="Hệ thống quản trị bán lẻ"/><link rel="icon" type="image/png" href="/icons/foodmart/logo-128.png"/><link rel="apple-touch-icon" href="/icons/foodmart/logo-128.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#4facfe"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="apple-mobile-web-app-title" content="FOODMART"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous"/><meta name="importmap-type" content="systemjs-importmap"/><meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><script>(function () {
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <meta name="robots" content="noindex,nofollow" />
+  <title>CTY CỔ PHẦN SIÊU THỊ THỰC PHẨM VIỆT NAM</title>
+  <meta name="description" content="Hệ thống quản trị bán lẻ" />
+  
+
+  <!-- Favicon & PWA tab — domain folder when VITE_ICON_FOLDER set, else root icons/ -->
+  
+  
+  <link rel="icon" type="image/png" href="/icons/foodmart/logo-128.png" />
+  <link rel="apple-touch-icon" href="/icons/foodmart/logo-128.png" />
+  
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#4facfe" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="FOODMART" />
+
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+
+  <meta name="importmap-type" content="systemjs-importmap" />
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+
+  
+  <script>
+  (function () {
     var base = "https://erp-bff.linm-soft.com/web-bff/api/v1";
-    Object.defineProperty(window, '__LINM_AUTH_BFF_BASE__', {
-      value: base,
-      writable: false,
-      configurable: false,
-      enumerable: true,
-    });
-  })();</script><script>(function () {
+    window.__LINM_AUTH_BFF_BUILD__ = base;
+    // Fallback until `_manifest.json` env.VITE_API_URL is applied (writable — user can change without rebuild).
+    if (!window.__LINM_AUTH_BFF_BASE__) window.__LINM_AUTH_BFF_BASE__ = base;
+  })();
+  </script>
+  
+
+  <script>
+  (function () {
     Object.defineProperty(window, '__LINM_SHELL_BRANDING__', {
       value: {
         title: "CTY CỔ PHẦN SIÊU THỊ THỰC PHẨM VIỆT NAM",
@@ -19,20 +57,54 @@
       configurable: false,
       enumerable: true,
     });
-  })();</script><link rel="preload" href="/system.min.js" as="script" crossorigin="anonymous"/><link rel="preload" href="/single-spa.min.js" as="script" crossorigin="anonymous"/><link rel="preload" href="/named-register.js" as="script" crossorigin="anonymous"/><link rel="preload" href="/react.18.2.0.production.min.js" as="script" crossorigin="anonymous"/><link rel="preload" href="/react-dom.18.2.0.production.min.js" as="script" crossorigin="anonymous"/><script type="systemjs-importmap">{
+  })();
+  </script>
+
+  <link rel="preload" href="/system.min.js"       as="script" crossorigin="anonymous" />
+  <link rel="preload" href="/single-spa.min.js"   as="script" crossorigin="anonymous" />
+  <link rel="preload" href="/named-register.js"   as="script" crossorigin="anonymous" />
+  <link rel="preload" href="/react.18.2.0.production.min.js"     as="script" crossorigin="anonymous" />
+  <link rel="preload" href="/react-dom.18.2.0.production.min.js" as="script" crossorigin="anonymous" />
+
+  <script type="systemjs-importmap">
+  {
     "imports": {
       "single-spa":  "/single-spa.min.js",
       "react":       "/react.18.2.0.production.min.js",
       "react-dom":   "/react-dom.18.2.0.production.min.js"
     }
-  }</script><script type="systemjs-importmap" id="base-importmap">{
+  }
+  </script>
+
+  
+  <!-- Manifest will be loaded and merged dynamically via JavaScript below -->
+  <script type="systemjs-importmap" id="base-importmap">
+  {
     "imports": {
       "@linm/root-config":        "/linm-root-config.js"
     }
-  }</script><script src="/system.min.js"></script><script src="/named-register.js"></script><script src="/import-map-overrides.js"></script><script>// import-map-overrides-full chỉ hiện khi localStorage[key] === 'true' (không phải 'show')
+  }
+  </script>
+  
+
+  <script src="/system.min.js"></script>
+  <script src="/named-register.js"></script>
+  <script src="/import-map-overrides.js"></script>
+  <script>
+    window.__LINM_MF_TRUST_PEM__ = decodeURIComponent('');
+    window.__MFE_SIGNED_KEY_ENABLE__ = false;
+    window.__LINM_ALLOW_MF_OVERRIDES__ = false;
+    // import-map-overrides-full chỉ hiện khi localStorage[key] === 'true' (không phải 'show')
     if (localStorage.getItem('overrides-ui') === 'show') {
       localStorage.setItem('overrides-ui', 'true');
-    }</script><script>(async function() {
+    }
+  </script>
+  <script src="/linm-mf-verify.js"></script>
+
+  
+  <!-- Load and merge _manifest.json into SystemJS import map -->
+  <script>
+    (async function() {
       try {
         const manifestUrl = '/_manifest.json?_=' + Date.now();
         console.log('[Manifest Loader] Fetching:', manifestUrl);
@@ -76,6 +148,18 @@
 
         window.__LINM_MF_MANIFEST__ = manifest;
         window.__LINM_MANIFEST_TS__ = manifest.timestamp || '';
+
+        (function applyLinmRuntimeEnv(m) {
+          var mf = (m && m.microfrontends) || {};
+          var rootEnv = (mf['@linm/root-config'] && mf['@linm/root-config'].env) || {};
+          window.__LINM_RUNTIME_ENV__ = rootEnv;
+          var api = String(rootEnv.VITE_API_URL || (m.env && m.env.VITE_API_URL) || window.__LINM_AUTH_BFF_BUILD__ || '')
+            .trim()
+            .replace(/\/$/, '');
+          if (!api) return;
+          window.__LINM_AUTH_BFF_BASE__ = api;
+          console.log('[Manifest Loader] @linm/root-config env.VITE_API_URL →', api);
+        })(manifest);
         
         // Wait for System to be available
         if (typeof System === 'undefined') {
@@ -84,34 +168,71 @@
           return;
         }
         
-        // Register all microfrontends into the SystemJS import map
+        // v1/v2 + local: MFE_SIGNED_KEY_ENABLE=false → unsigned import map.
+        // v3 (mfe-deploy.yml): true → Ed25519 fail-closed.
         if (manifest.microfrontends) {
           const imports = {};
-          Object.entries(manifest.microfrontends).forEach(([name, info]) => {
-            imports[resolveMfeName(name)] = info.url;
-          });
+          const signedOn = window.__MFE_SIGNED_KEY_ENABLE__ === true;
 
-          // Legacy import-map names → same bundle URL as canonical entry.
-          for (const [legacyName, canonicalName] of Object.entries(LEGACY_MF_ALIASES)) {
-            if (imports[canonicalName]) {
-              imports[legacyName] = imports[canonicalName];
+          const applyAliasesAndOverrides = () => {
+            for (const [legacyName, canonicalName] of Object.entries(LEGACY_MF_ALIASES)) {
+              if (imports[canonicalName]) {
+                imports[legacyName] = imports[canonicalName];
+              }
+            }
+            if (window.__LINM_ALLOW_MF_OVERRIDES__ && window.importMapOverrides) {
+              const overrideMap = window.importMapOverrides.getOverrideMap();
+              Object.entries(overrideMap.imports || {}).forEach(([name, url]) => {
+                console.log(`[Manifest Loader] Override ${name} → ${url}`);
+                imports[name] = url;
+              });
+            }
+            Object.entries(imports).forEach(([name, url]) => {
+              console.log(`  ✓ ${name} → ${url}`);
+            });
+            System.addImportMap({ imports });
+          };
+
+          if (!signedOn) {
+            console.warn('[Manifest Loader] MFE_SIGNED_KEY_ENABLE=false — unsigned import map (v1/v2 / local)');
+            for (const [name, info] of Object.entries(manifest.microfrontends)) {
+              if (info && info.url) imports[resolveMfeName(name)] = info.url;
+            }
+            applyAliasesAndOverrides();
+            console.log('[Manifest Loader] Import map updated:', Object.keys(imports).length, 'unsigned entries');
+          } else {
+            const verify = window.LinmMfVerify;
+            const trustPem = window.__LINM_MF_TRUST_PEM__ || '';
+            let keyring = null;
+            try {
+              const keyringUrl = '/_mfe-keys.json?_=' + Date.now();
+              const keyringRes = await fetch(keyringUrl, { cache: 'no-store', headers: { 'Pragma': 'no-cache' } });
+              if (keyringRes.ok) keyring = await keyringRes.json();
+            } catch (keyringErr) {
+              console.error('[Manifest Loader] _mfe-keys.json fetch failed:', keyringErr);
+            }
+
+            const verifyKeyring = verify && (verify.verifyKeyring || verify.verifyKeyring);
+            const verifyEntry = verify && (verify.verifyEntry || verify.verifyEntry);
+            const ringOk = verifyKeyring && trustPem && keyring
+              ? await verifyKeyring(keyring, trustPem)
+              : false;
+            if (!ringOk) {
+              console.error('[Manifest Loader] keyring/trust invalid — no MFE import map entries');
+            } else {
+              for (const [name, info] of Object.entries(manifest.microfrontends)) {
+                const pub = keyring.keys && keyring.keys[name] && keyring.keys[name].publicKeyPem;
+                const ok = verifyEntry ? await verifyEntry(name, info, pub) : false;
+                if (!ok) {
+                  console.error('[Manifest Loader] skip unsigned/invalid MFE', name);
+                  continue;
+                }
+                imports[resolveMfeName(name)] = info.url;
+              }
+              applyAliasesAndOverrides();
+              console.log('[Manifest Loader] Import map updated:', Object.keys(imports).length, 'signed entries');
             }
           }
-
-          // import-map-overrides localStorage — merge AFTER manifest (addImportMap ghi đè DOM overrides)
-          if (window.importMapOverrides) {
-            const overrideMap = window.importMapOverrides.getOverrideMap();
-            Object.entries(overrideMap.imports || {}).forEach(([name, url]) => {
-              console.log(`[Manifest Loader] Override ${name} → ${url}`);
-              imports[name] = url;
-            });
-          }
-
-          Object.entries(imports).forEach(([name, url]) => {
-            console.log(`  ✓ ${name} → ${url}`);
-          });
-          System.addImportMap({ imports });
-          console.log('[Manifest Loader] Import map updated:', Object.keys(imports).length, 'entries');
         }
       } catch (err) {
         console.error('[Manifest Loader] Error:', err);
@@ -124,7 +245,24 @@
         try { await System.import('react-dom'); } catch(e) { console.error('[Manifest Loader] react-dom preload failed:', e); }
         System.import('@linm/root-config');
       }
-    })();</script></head><body><div id="navigation"></div><div class="root-loader"><div class="root-loader__spinner"></div></div><import-map-overrides-full show-when-local-storage="overrides-ui"></import-map-overrides-full><script>(function() {
+    })();
+  </script>
+  
+</head>
+<body>
+  <div id="navigation"></div>
+
+  <div class="root-loader">
+    <div class="root-loader__spinner"></div>
+  </div>
+
+  
+
+  <import-map-overrides-full show-when-local-storage="overrides-ui"></import-map-overrides-full>
+
+  
+  <script>
+    (function() {
       if (!('serviceWorker' in navigator)) return;
 
       var RELOAD_KEY = '_mf_deploy_reload_ts';
@@ -220,4 +358,8 @@
           })
           .catch(function() {});
       });
-    })();</script></body></html>
+    })();
+  </script>
+  
+</body>
+</html>
