@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-25T03:49:42.186Z",
+  "timestamp": "2026-08-29T16:49:20.867Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
-      "url": "/root-config/1.0.30-dev.130/linm-root-config.js",
+      "url": "/root-config/1.0.30-dev.132/linm-root-config.js",
       "filename": "linm-root-config.js",
-      "version": "1.0.30-dev.130",
-      "timebuild": "2026-08-25T03:49:43.020Z"
+      "version": "1.0.30-dev.132",
+      "timebuild": "2026-08-29T16:49:21.288Z"
     },
     "@linm/web-home": {
       "url": "/web-home/linm-web-home.8315813d.js",
