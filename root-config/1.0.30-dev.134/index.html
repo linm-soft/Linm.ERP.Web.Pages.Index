@@ -52,6 +52,10 @@
         icon: "/icons/foodmart/logo-128.png",
         iconFolder: "foodmart",
         navMain: "FOODMART",
+        allowChangeLinmLoading: false,
+        loadingIcon: "",
+        sidebarLogoSize: 32,
+        sidebarIconOnly: false,
       },
       writable: false,
       configurable: false,
@@ -102,17 +106,51 @@
   <script src="/linm-mf-verify.js"></script>
 
   
-  <!-- Load and merge _manifest.json into SystemJS import map -->
+  <!-- Load _manifest.json (local/default) or _manifest.deploy.json (?manifest=deploy) -->
   <script>
     (async function() {
-      try {
-        const manifestUrl = '/_manifest.json?_=' + Date.now();
-        console.log('[Manifest Loader] Fetching:', manifestUrl);
-        
-        const response = await fetch(manifestUrl, {
+      function resolveLinmManifestPath(publicUrl) {
+        var q = new URLSearchParams(location.search);
+        var override = String(q.get('linm_manifest') || q.get('manifest') || '').toLowerCase();
+        var stored = '';
+        try { stored = String(sessionStorage.getItem('linm_manifest') || '').toLowerCase(); } catch (e) {}
+        var mode = override || stored || '';
+        if (override) {
+          try { sessionStorage.setItem('linm_manifest', override); } catch (e) {}
+          mode = override;
+        }
+        var file = (mode === 'deploy' || mode === 'prod' || mode === 'remote')
+          ? '/_manifest.deploy.json'
+          : '/_manifest.json';
+        return (publicUrl || '') + file;
+      }
+
+      async function fetchLinmManifest(publicUrl) {
+        var primary = resolveLinmManifestPath(publicUrl);
+        var fallback = (publicUrl || '') + '/_manifest.json';
+        var url = primary + '?_=' + Date.now();
+        var response = await fetch(url, {
           cache: 'no-store',
           headers: { 'Pragma': 'no-cache' }
         });
+        if (!response.ok && primary !== fallback) {
+          console.warn('[Manifest Loader]', primary, 'failed (' + response.status + ') — fallback _manifest.json');
+          url = fallback + '?_=' + Date.now();
+          response = await fetch(url, {
+            cache: 'no-store',
+            headers: { 'Pragma': 'no-cache' }
+          });
+          primary = fallback;
+        }
+        window.__LINM_MANIFEST_FILE__ = primary;
+        return { response: response, url: url };
+      }
+
+      try {
+        const loaded = await fetchLinmManifest('');
+        const response = loaded.response;
+        const manifestUrl = loaded.url;
+        console.log('[Manifest Loader] Fetching:', manifestUrl);
         
         if (!response.ok) {
           console.warn('[Manifest Loader] Failed to fetch manifest:', response.status);
@@ -150,15 +188,40 @@
         window.__LINM_MANIFEST_TS__ = manifest.timestamp || '';
 
         (function applyLinmRuntimeEnv(m) {
+          function isForceBffOn(v) {
+            return v === true || v === 'true' || v === 1 || v === '1';
+          }
           var mf = (m && m.microfrontends) || {};
           var rootEnv = (mf['@linm/root-config'] && mf['@linm/root-config'].env) || {};
-          window.__LINM_RUNTIME_ENV__ = rootEnv;
-          var api = String(rootEnv.VITE_API_URL || (m.env && m.env.VITE_API_URL) || window.__LINM_AUTH_BFF_BUILD__ || '')
+          var siteEnv = (m && m.env) || {};
+          var forceOn = isForceBffOn(siteEnv.FORCE_BFF_DOMAIN) || isForceBffOn(rootEnv.FORCE_BFF_DOMAIN);
+          var api = String(rootEnv.VITE_API_URL || siteEnv.VITE_API_URL || window.__LINM_AUTH_BFF_BUILD__ || '')
             .trim()
             .replace(/\/$/, '');
+
+          if (forceOn) {
+            if (!api) {
+              console.error('[Manifest Loader] FORCE_BFF_DOMAIN=true but @linm/root-config env.VITE_API_URL is empty');
+            } else {
+              if (!m.env) m.env = {};
+              m.env.FORCE_BFF_DOMAIN = true;
+              Object.keys(mf).forEach(function (name) {
+                if (!mf[name].env) mf[name].env = {};
+                mf[name].env.VITE_API_URL = api;
+                mf[name].env.FORCE_BFF_DOMAIN = true;
+              });
+              window.__LINM_FORCE_BFF_DOMAIN__ = true;
+              console.log('[Manifest Loader] FORCE_BFF_DOMAIN=true → all MFE VITE_API_URL', api);
+            }
+          }
+
+          window.__LINM_RUNTIME_ENV__ = Object.assign({}, rootEnv, {
+            FORCE_BFF_DOMAIN: forceOn,
+            VITE_API_URL: api || rootEnv.VITE_API_URL,
+          });
           if (!api) return;
           window.__LINM_AUTH_BFF_BASE__ = api;
-          console.log('[Manifest Loader] @linm/root-config env.VITE_API_URL →', api);
+          if (!forceOn) console.log('[Manifest Loader] @linm/root-config env.VITE_API_URL →', api);
         })(manifest);
         
         // Wait for System to be available
@@ -346,7 +409,7 @@
       // Long-lived tab: refetch manifest when user returns — reload if a new deploy landed.
       document.addEventListener('visibilitychange', function() {
         if (document.visibilityState !== 'visible') return;
-        var base = '/_manifest.json';
+        var base = window.__LINM_MANIFEST_FILE__ || '/_manifest.json';
         fetch(base + '?_=' + Date.now(), { cache: 'no-store', headers: { Pragma: 'no-cache' } })
           .then(function(r) { return r.ok ? r.json() : null; })
           .then(function(m) {
