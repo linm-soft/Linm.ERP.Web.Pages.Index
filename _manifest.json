@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T13:17:03.372Z",
+  "timestamp": "2026-10-16T15:30:09.217Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -93,10 +93,10 @@
       ]
     },
     "@linm/erp-sales": {
-      "url": "/erp-sales/1.0.0-dev.88/linm-erp-sales.40a2dd18.js",
-      "filename": "linm-erp-sales.40a2dd18.js",
-      "version": "1.0.0-dev.88",
-      "timebuild": "2026-10-16T13:17:03.392Z",
+      "url": "/erp-sales/1.0.0-dev.89/linm-erp-sales.92a18989.js",
+      "filename": "linm-erp-sales.92a18989.js",
+      "version": "1.0.0-dev.89",
+      "timebuild": "2026-10-16T15:30:09.237Z",
       "routes": [
         "bh"
       ]
