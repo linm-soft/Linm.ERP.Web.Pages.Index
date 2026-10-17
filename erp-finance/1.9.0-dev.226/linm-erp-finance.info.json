@@ -1,0 +1,9 @@
+{
+  "version": "1.9.0-dev.226",
+  "timebuild": "2026-10-17T17:50:28.318Z",
+  "routes": [
+    "kt",
+    "gt",
+    "tscd"
+  ]
+}
