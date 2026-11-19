@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T18:48:05.928Z",
+  "timestamp": "2026-11-19T20:03:37.469Z",
   "publicUrl": "",
   "microfrontends": {
     "@linm/root-config": {
@@ -84,10 +84,10 @@
       ]
     },
     "@linm/erp-analytics": {
-      "url": "/erp-analytics/1.0.0-dev.97/linm-erp-analytics.fdac4f8f.js",
-      "filename": "linm-erp-analytics.fdac4f8f.js",
-      "version": "1.0.0-dev.97",
-      "timebuild": "2026-11-19T18:48:05.936Z",
+      "url": "/erp-analytics/1.0.0-dev.98/linm-erp-analytics.7ced4167.js",
+      "filename": "linm-erp-analytics.7ced4167.js",
+      "version": "1.0.0-dev.98",
+      "timebuild": "2026-11-19T20:03:37.478Z",
       "routes": [
         "baocao"
       ]
